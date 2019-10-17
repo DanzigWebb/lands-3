@@ -1,0 +1,142 @@
+@import "vars"
+@import "most"
+@import "offer"
+
+
+.header
+  padding: 0 .3rem
+  height: 5.23rem
+  background-image: url(../../img/main.png)
+  background-color: $dark
+  background-size: cover
+  background-position: top center
+.logo
+  background-image: url(../../img/logo__bg.svg)
+  background-size: cover
+  margin: 0
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  width: 1.7rem
+  height: 1.86rem
+  font-size: 0.38rem
+  span
+    margin-bottom: 0.2rem
+    line-height: 1.2
+.main
+  background-image: url(../../img/main__bg.png)
+  background-size: cover
+  padding: .7rem .3rem
+  margin-top: -1rem
+.price-wrap
+  background-image: url(../../img/price__bg.png)
+  background-repeat: no-repeat
+  background-size: cover
+  height: 0.84rem
+  max-width: 2.32rem
+  display: flex
+  align-items: center
+  font-size: 0.3rem
+  padding-left: 0.3rem
+  font-weight: bold
+  box-sizing: border-box
+.price__after
+  font-weight: normal
+  font-size: 0.17rem
+
+.main__about
+  padding: .4rem .3rem
+  border: 1px solid #ffffff
+.main__item
+  display: flex
+  align-items: center
+  margin-bottom: 0.2rem
+  &:last-child
+    margin-bottom: 0
+  img
+    flex-shrink: 0
+    width: 0.6rem
+    height: 0.6rem
+    margin-right: 0.2rem
+  p
+    font-size: 0.14rem
+    line-height: 1.6
+
+.sect1
+  h2
+    margin-bottom: 0.45rem
+  p
+    color: $dark
+    &:last-child
+      margin-bottom: 0
+
+.sect2
+  background: $dark
+  background-image: url(../../img/sect2.jpg)
+  background-size: cover
+  padding-bottom: 1rem
+  h2
+    color: #fff
+  
+.sect2-content
+  padding-top: 0.4rem
+
+.sect2__item
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border: 1px solid #fff
+  margin-bottom: 0.1rem
+  &:last-child
+    margin-bottom: 0
+  img
+    width: 1.4rem
+    height: 100%
+  p
+    padding: 0 .1rem
+    margin: 0
+  &:nth-child(even)
+    flex-direction: row-reverse
+
+.sect3
+  background-image: url(../../img/sect3__bg.png)
+  background-size: cover
+  background-position: top center
+  margin-top: -0.65rem
+  h2
+    text-align: right
+  li
+    color: $dark
+
+.sect3__list
+  padding: .4rem 0
+  margin: 0
+.sect3__item
+  list-style: none
+  padding: 0
+  margin: 0
+  margin-bottom: 0.2rem
+  &:before
+    content: ''
+    display: inline-block
+    width: 0.1rem
+    height: 0.1rem
+    border-radius: 50%
+    background: $accent
+    margin-right: 0.1rem
+  &:nth-child(1)
+    padding-left: 1.3rem
+  &:nth-child(2)
+    padding-left: 1.7rem
+  &:nth-child(3)
+    padding-left: 2.2rem
+  &:nth-child(4)
+    padding-left: 2.3rem
+  &:nth-child(5)
+    padding-left: 2.2rem
+    margin-bottom: 0.3rem
+  &:nth-child(6)
+    padding-left: 1.8rem
+    margin-bottom: 0.3rem
+  &:nth-child(7)
+    padding-left: 1.7rem
