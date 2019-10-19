@@ -114,6 +114,23 @@ h2
   bottom: -0.28rem
   left: 0
   right: 0
+
+.pulse__btn
+  position: fixed
+  right: 0.1rem
+  display: inline-block
+  bottom: 0.1rem
+  z-index: 10
+  box-shadow: 0 0 0 rgba(11, 138, 44, 0.4)
+  width: 0.7rem
+  height: 0.7rem
+  border-radius: 50%
+  animation: pulse 2s infinite
+  transition: all .9s ease
+  &.show
+    right: -100%
+  img
+    width: 100%
 // animation
 @keyframes btn
   0%
@@ -122,3 +139,4 @@ h2
     transform: scale(1.06)
   100%
     transform: scale(1)
+
